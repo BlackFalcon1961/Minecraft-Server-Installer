@@ -1,5 +1,5 @@
 #!/bin/bash
-# Version du script : v1.3
+# Version : v1.1
 clear
 echo " "
 echo "      #==============*\_-_/*=============#"
@@ -8,12 +8,12 @@ echo "      #    Minecraft Server Installer    #"
 echo "      #                by                #"
 echo "      #          BlackFalcon1961         #"
 echo "      #                                  #"
-echo "      #               v1.3               #"
+echo "      #               v1.1               #"
 echo "      #                                  #"
 echo "      #==============*\_-_/*=============#"
 echo " "
 
-# Fonctions :
+# Functions :
 
 welcome(){
 	echo " "
@@ -127,7 +127,7 @@ elif [ "$startserver" = "n" ] || [ "$startserver" = "N" ]; then
 	echo " "
 	echo "    ©2019 - 2020 | BlackFalcon1961 - Tous droits réservés"
 	echo " "
-	echo "                            v1.3"
+	echo "                            v1.1"
 	echo " "
 	echo " "
 	echo " "
@@ -247,7 +247,7 @@ elif [ "$startserver" = "n" ] || [ "$startserver" = "N" ]; then
 	echo " "
 	echo "    ©2019 - 2020 | BlackFalcon1961 - All rights reserved"
 	echo " "
-	echo "                            v1.3"
+	echo "                            v1.1"
 	echo " "
 	echo " "
 	echo " "
@@ -295,6 +295,6 @@ installer-en(){
 	start-server-en
 }
 
-# Appel des fonctions :
+# Call functions :
 
 welcome
